@@ -1,5 +1,16 @@
 ### Version History
 
+*4.2.15-rc1 (2020/02/20)*
+
+* Remove unnecessary Safari hack (#2731)
+* Fix time slider and volume slider crash on keypress (#2728)
+* Changed fullscreeneventname for resolving fullscreen issue in firefox (#2726)
+* media.seekable fallback for getDuration-method of player/default.js (#2571)
+* Add new configuration option "ignorePauseOtherPlayersOption" (#2713, #2712)
+* Remove IS_ANDROID from SUPPORTS_NATIVE_HLS (#2720, #2719)
+* Added handling of the .play() promise errors to vimeo player (#2716, #2715)
+* Make error event handler more robust (#2708)
+
 *4.2.14 (2019/10/19)*
 
 * Update versions in src/js/core/mejs.js and package.js (had not been done for 4.2.13)
